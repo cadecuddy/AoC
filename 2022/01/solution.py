@@ -10,5 +10,5 @@ def part_one():
 def part_two():
     return sum(sorted([sum([int(x) for x in y.split()]) for y in raw.split('\n\n')])[-3:])
 
-submit(part_one(), part="a", day=day, year=year)
-submit(part_two(), part="b", day=day, year=year)
+print(part_one())
+print(part_two())
