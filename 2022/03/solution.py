@@ -1,18 +1,21 @@
-from aocd import get_data, submit
-d, y = 1, 2021
-
+data = [line.rstrip() for line in open('input.txt')]
 
 def part_one():
-    data = get_data(day=d, year=y)
-    ans = 1195
-
-    return ans
+    total = 0
+    for line in data:
+        n = len(line) // 2
+        one, two = line[:n], line[n:]
+        c, = set(one) & set(two)
+        total += ord(c) - 96 if c.islower() else ord(c) - 38
+    return total
 
 def part_two():
-    data = get_data(day=d, year=y)
-    ans = 1235
+    total = 0
+    for i in range(0, len(data), 3):
+        one, two, three = data[i], data[i+1], data[i+2]
+        c, = set(one) & set(two) & set(three)
+        total += ord(c) - 96 if c.islower() else ord(c) - 38
+    return total
 
-    return ans
-
-submit(part_one(), part="a", day=d, year=y)
-submit(part_two(), part="b", day=d, year=y)
+print(part_one())
+print(part_two())
