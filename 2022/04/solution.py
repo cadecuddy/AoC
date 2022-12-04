@@ -15,8 +15,8 @@ def part_two():
     for l in d:
         s = l.split(",")
         p1, p2 = [int(x) for x in s[0].split("-")], [int(x) for x in s[1].split("-")]
-        # general overlap | p2 start inside of p1, etc.
-        if p1[0] <= p2[0] <= p1[1] or p2[0] <= p1[0] <= p2[1]:
+        # if they're not NOT overlapping :)
+        if not (p1[1] < p2[0] or p2[1] < p1[0]):
             t += 1
     return t
 
