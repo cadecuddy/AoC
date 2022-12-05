@@ -29,8 +29,7 @@ def part_two():
         new = []
         for x in range(int(command[1])):
             item = stacks[int(command[3]) - 1].pop()
-            new.append(item)
-        new.reverse()
+            new.insert(0, item)
         stacks[int(command[5]) - 1].extend(new)
     for stack in stacks:
         t += stack.pop()
