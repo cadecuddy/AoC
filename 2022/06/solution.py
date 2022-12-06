@@ -1,18 +1,14 @@
-from aocd import get_data, submit
-d, y = 1, 2021
-
+line = open("input.txt").read().rstrip()
 
 def part_one():
-    data = get_data(day=d, year=y)
-    ans = 1195
-
-    return ans
+    for i in range(len(line)):
+        if len(set(line[i:i+4])) == 4:
+            return i + 4
 
 def part_two():
-    data = get_data(day=d, year=y)
-    ans = 1235
+    for i in range(len(line)):
+        if len(set(line[i:i+14])) == 14:
+            return i + 14
 
-    return ans
-
-submit(part_one(), part="a", day=d, year=y)
-submit(part_two(), part="b", day=d, year=y)
+print(part_one())
+print(part_two())
