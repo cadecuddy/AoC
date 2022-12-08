@@ -9,6 +9,7 @@ All my Advent of Code Solutions
 * [Day 5](https://github.com/cadecuddy/AoC/tree/main/2022/05/solution.py) - `2152/2306`
 * [Day 6](https://github.com/cadecuddy/AoC/tree/main/2022/06/solution.py) - `1456/1678`
 * [Day 7](https://github.com/cadecuddy/AoC/tree/main/2022/07/solution.py) - `1614/3046`
+* [Day 8](https://github.com/cadecuddy/AoC/tree/main/2022/08/solution.py) - `1848/1442`
 
 ## 2021 - Rust
 _[Haven't started yet]_
