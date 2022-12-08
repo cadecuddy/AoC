@@ -1,5 +1,5 @@
 # AoC
-All my Advent of Code Solutions
+All my Advent of Code Solutions, usually cleaned up after the inital rush/grind phase.
 
 ## 2022 - Python
 * [Day 1](https://github.com/cadecuddy/AoC/tree/main/2022/01/solution.py) - `5958/6271`
