@@ -12,6 +12,7 @@ All my Advent of Code Solutions, usually cleaned up after the inital rush/grind 
 * [Day 8](https://github.com/cadecuddy/AoC/tree/main/2022/08/solution.py) - `1848/1442`
 * [Day 9](https://github.com/cadecuddy/AoC/tree/main/2022/09/solution.py) - `6579/5953`
 * [Day 10](https://github.com/cadecuddy/AoC/tree/main/2022/10/solution.py) - `3062/4484`
+* [Day 11](https://github.com/cadecuddy/AoC/tree/main/2022/11/) - `4998/2926`
 
 ## 2021 - Rust
 _[Haven't started yet]_
